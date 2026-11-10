@@ -9,6 +9,7 @@ body {
     display: grid;
     place-items: center;
     background-color: white;
+    font-family: Arial, sans-serif;
 }
 
 .board {
@@ -85,4 +86,45 @@ body {
     text-align: center;
     padding-top: 12px;
     font-size: 22px;
+}
+
+/* Tablet layout: 583px - 900px */
+@media (min-width: 583px) and (max-width: 900px) {
+    .board {
+        width: 320px;
+        height: 275px;
+    }
+
+    .diamond--first {
+        top: 105px;
+        left: 18px;
+    }
+
+    .diamond--second {
+        top: 47px;
+        left: 78px;
+    }
+
+    .line--first {
+        top: 209px;
+        left: 10px;
+    }
+
+    .line--second {
+        top: 231px;
+        left: 10px;
+    }
+
+    .circle {
+        top: 200px;
+        left: 85px;
+    }
+
+    .panel {
+        top: 54px;
+        right: 13px;
+        width: 90px;
+        height: 205px;
+        background-color: #c83b3b;
+    }
 }
