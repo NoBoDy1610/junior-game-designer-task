@@ -128,3 +128,50 @@ body {
         background-color: #c83b3b;
     }
 }
+
+/* Mobile layout: below 583px */
+@media (max-width: 582px) {
+    .board {
+        width: 175px;
+        height: 470px;
+    }
+
+    .board__header {
+        height: 32px;
+    }
+
+    .diamond--first {
+        top: 105px;
+        left: 21px;
+    }
+
+    .diamond--second {
+        top: 49px;
+        left: 78px;
+    }
+
+    .line--first {
+        top: 210px;
+        left: 8px;
+    }
+
+    .line--second {
+        top: 235px;
+        left: 8px;
+    }
+
+    .circle {
+        top: 200px;
+        left: 83px;
+    }
+
+    .panel {
+        top: 255px;
+        left: 29px;
+        right: auto;
+        width: 90px;
+        height: 205px;
+        background-color: blue;
+        font-size: 20px;
+    }
+}
